@@ -14,7 +14,16 @@ hide_st_style = """
             header {visibility: hidden;}
             </style>
             """
-st.markdown(hide_st_style, unsafe_allow_html=True)
+st.markdown("""
+<style>
+    .main {
+        background-color: #f8f8f8;
+    }
+    .stApp {
+        background-color: #f8f8f8 !important;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 # --- SIDEBAR (API KEY) ---
 if "GROQ_API_KEY" in st.secrets:
