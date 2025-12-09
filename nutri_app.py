@@ -17,10 +17,10 @@ hide_st_style = """
 st.markdown("""
 <style>
     .main {
-        background-color: #B2C9AD;
+        background-color: #FBFFE4;
     }
     .stApp {
-        background-color: #FBFFE4 !important;
+        background-color: #B2C9AD !important;
     }
 </style>
 """, unsafe_allow_html=True)
