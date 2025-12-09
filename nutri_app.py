@@ -17,7 +17,7 @@ hide_st_style = """
 st.markdown("""
 <style>
     .main {
-        background-color: B2C9AD;
+        background-color: #B2C9AD;
     }
     .stApp {
         background-color: #fbffe4 !important;
